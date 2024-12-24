@@ -20,6 +20,7 @@ class Student {
     }
 
     public static boolean studentLogin(Connection connection) throws SQLException {
+        // Code to validate student login goes here.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Student ID: ");
         int studentId = scanner.nextInt();
